@@ -5,3 +5,6 @@ def std(request):
 
 def detail(request):
     return render(request, 'studentsapp/detail.html')
+
+def about(request):
+    return render(request, 'studentsapp/about.html')
